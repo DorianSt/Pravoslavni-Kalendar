@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutButton" xml:space="preserve">
+    <value>O aplikaciji</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Pravoslavni crkveni kalendar</value>
+  </data>
+  <data name="BlagovestiDesc" xml:space="preserve">
+    <value>Blagovesti su dan kada se Bogorodici javio arhangel Gavrilo i saopštio joj da je, posredstvom Svetog duha, u blagoslovenom stanju i da će roditi sina.</value>
+  </data>
+  <data name="BogorodiceDesc" xml:space="preserve">
+    <value>Jedan od najvećih hrišćanskih praznika Velika Gospojina, proslavlja se svakog 28. avgusta, obeležena je crvenim slovom i predstavlja praznik majki i dece.</value>
+  </data>
+  <data name="BuyButton" xml:space="preserve">
+    <value>Kupi ručno rađene ikone</value>
+  </data>
+  <data name="DescriptionTitle" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="DurdicDesc" xml:space="preserve">
+    <value>Na današnji dan se obeležava obnavljanje hrama Velikomučenika Georgija u Lidiji i prenos moštiju Svetog Georgija u taj hram. 
+
+Za Đurđic se koristi ikona na kojoj je prikazan vojnik koji stoji na poljani sa kopljem u ruci.</value>
+  </data>
+  <data name="KrstiteljaDesc" xml:space="preserve">
+    <value>Jovan je rođen šest meseci pre Isusa Hrista, od oca Zaharija i majke Jelisavete koji su u tom periodu imali dosta godina.Po predanju, Arhangel Gavrilo se javio prvosvešteniku Zahariju u hramu Jerusalimskom i pre nego što objavi začeće bezmužne device (rođenje Isusa Hrista), on najavi začeće starice Jelisavete.</value>
+  </data>
+  <data name="KrstovdanDesc" xml:space="preserve">
+    <value>"Ko se krstom krsti, na Krstovdan posti." tako kaže naš narod. Na ovaj dan se praznuju dva događaja.</value>
+  </data>
+  <data name="LanguageTitle" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="LazarevaSubotaDesc" xml:space="preserve">
+    <value>Lazareva subota ili Vrbica se priprema u poslednjoj nedelji posta, za najveći hrišćanski praznik - Uskrs.</value>
+  </data>
+  <data name="MarinaDesc" xml:space="preserve">
+    <value>Praznik Svete velikomučenice Marine u narodu je poznat kao Ognjena Marija.
+Sveta Marina je bila veliki borac za hrišćansku veru i zaštitu žena.Narod veruje da Sveta Marina pali i kažnjava ognjem, pa samim tim spada u "ognjevite" svece kao i Sveti Ilija.</value>
+  </data>
+  <data name="PavlovdanDesc" xml:space="preserve">
+    <value>Pravoslavna crkva i vernici na ovaj dan slave Dan svetih apostola Petra i Pavla, praznik koji je u našem narodu poznat pod imenom – Petrovdan.</value>
+  </data>
+  <data name="PreobrazenjeDesc" xml:space="preserve">
+    <value>Nakon tri godine svog propovedanja, Isus Hristos povede svoje apostole Jakova, Petra i Jovana u planinu Tavor.Tokom naredne noći, Isus Hrist se preobrazi pred apostolima i postade svetlost.</value>
+  </data>
+  <data name="PresveteBogorodiceDesc" xml:space="preserve">
+    <value>Konkretan događaj koji se toga dana spominje i praznuje desio se prema hrišćanskom vjerovanju 1. oktobra 911. godine u vreme cara Lava Mudroga (ili Filozofa). Služeno je svenoćno bdenje u Bogorodičinoj crkvi Vlaherne u Carigradu.</value>
+  </data>
+  <data name="RodjenjeDesc" xml:space="preserve">
+    <value>Mala Gospojina je narodni praznik kojim se slavi rođenje Bogorodice Marije. Za ovaj praznik vezuju se mnogi običaji, a posebno ga slave i poštuju žene.</value>
+  </data>
+  <data name="SrdevdanDesc" xml:space="preserve">
+    <value>Praznik na koji se slavi dan Svetih Sergija i Vakha u našem narodu zove se Srđevdan.
+
+Vakh i Sergije su zbog svoje hrišćanske vere kao rimski dostojanstvenici na dvoru cara Maksimilijana pogubljeni pošto su odbili da se poklone rimskim bogovima.</value>
+  </data>
+  <data name="SvetaMarijaDesc" xml:space="preserve">
+    <value>Rođena pre dva milenijuma u gradu Magdale (Sirija), po kome je i dobila prezime.
+Po predanju Marija Magdalena je u mladosti bila grešnica koju je Isus Hristos spasio od kamenovanja.</value>
+  </data>
+  <data name="SvetaParaskevaDesc" xml:space="preserve">
+    <value>U Srbiji Svetu Petku Trnovu ( 8. avgust) naš narod često meša sa Svetom Petkom (27.oktobar).
+
+Dve svetiteljke se na ikonama razlikuju po obeležju Svete Petke Trnove, zaštitnice slepih, koja u rukama drži pločicu sa urezanim očima.</value>
+  </data>
+  <data name="SvetaPetkaDesc" xml:space="preserve">
+    <value>Sveta Petka (Sveta Paraskeva, Pyatnitsa, Pyetka ili takozvana Petka Trnovska), kršćanska je svetica koja je rođena u gradu Epivatu, koji se nalazio između Silimvrije i Carigrada u Trakiji polovinom desetog stoljeća.</value>
+  </data>
+  <data name="SvetiAlimpijeDesc" xml:space="preserve">
+    <value>Alimpije je rođen 522. godine, i još kao mali je predat na službu Bogu.
+Služio je kao đakon andrijanapoljskog episkopa Teodora i uz njega naučio Sveto pismo.
+Sveti Alimpije je uvek pokušavao da pronađe načine da bude sam, oduvek je želeo da provede život u molitvi u samoći.</value>
+  </data>
+  <data name="SvetiApostolPetarDesc" xml:space="preserve">
+    <value>Petar je u tamnici spavao okovan između dvojice vojnika, a noć pred izvođenje na sud probudio ga je anđeo i rekao mu: „Ustani, obuj se i opaši se, pa hajde sa mnom“.</value>
+  </data>
+  <data name="SvetiArandjelDesc" xml:space="preserve">
+    <value>Arhangel Mihailo je "vođa nebeskih vojski" koji se uvek javljao na mestima na kojima se javljala i Bogorodica, tako da predstavlja nebesku silu i zaštitu na zemlji.</value>
+  </data>
+  <data name="SvetiDimitrijeDesc" xml:space="preserve">
+    <value>U našem narodu Mitrovdan predstavlja jednu od pet najvećih srpskih slava. Ovaj praznik je posvećen antičkom zapovedniku Dimitriju Solunskom koji je izgubio život zarad širenja hrišćanstva.</value>
+  </data>
+  <data name="SvetiGeorgijeDesc" xml:space="preserve">
+    <value>Praznik Svetog Georgija, jednog od devet velikomučenika i prvih stradalnika za hrišćansku veru, obeležava se u svim hramovima Srpske pravoslavne crkve i jedna je od najčešćih slava pravoslavnih Srba.</value>
+  </data>
+  <data name="Svetih40mucenikaDesc" xml:space="preserve">
+    <value>22. marta se praznuju Mladenci. Posvećeni su uspomeni na stradanje četrdeset Mučenika Sevastiskih, koji su za Hristovu veru postradali 320.godine.</value>
+  </data>
+  <data name="SvetiIgnjatijeDesc" xml:space="preserve">
+    <value>2. januara po savremenom kalendaru (20 decembra po crkvenom) je krsna slava Sveti Ignjatije Bogonosac.</value>
+  </data>
+  <data name="SvetiIlijaDesc" xml:space="preserve">
+    <value>Sveti Ilija je prisutan u Starom i u Novom zavetu kao prorok čije je osobine preuzelo hrišćanstvo dovodeći ga u vezu sa nastankom nove vere i novim Hristovim dolaskom.</value>
+  </data>
+  <data name="SvetiJovanDesc" xml:space="preserve">
+    <value>Sveti Jovan je uzor poštenja i pravdoljublja, pa u srpskom narodu postoji običaj da se ljudi na Jovanjdan bratime i kume "po Bogu i Svetom Jovanu". Pravoslavci slave krsnu slavu svetog Jovana, koja je na trećem mestu po broju svečara koji slave, 20. januara.</value>
+  </data>
+  <data name="SvetiKirijakDesc" xml:space="preserve">
+    <value>Miholjdan je dan posvećen Svetom Kirijaku Otšelniku, u narodu poznatom kao Sveti Miholj. Postoji verovanje da tek posle ovog praznika dolazi prava jesen.</value>
+  </data>
+  <data name="SvetiKnezLazarDesc" xml:space="preserve">
+    <value>28. juna pravoslavna crkva i njeni vernici proslavljaju Vidovdan, poznat kao datum kad je održana Kosovska bitka i praznik svetog mučenika Vida i Lazara Hrebeljanovića.</value>
+  </data>
+  <data name="SvetiLukaDesc" xml:space="preserve">
+    <value>Hrišćanstvo uči i da je pisac trećeg Jevanđelja Novog Zaveta, oko 60. godine. Pratio je apostola Pavla na misionarskim putovanjima, a kasnije je i sam propovedao</value>
+  </data>
+  <data name="SvetiMarkoDesc" xml:space="preserve">
+    <value>Na taj dan je Sveti Marko pogubljen u Misiru tokom služenja liturgije u Aleksandrijskoj crkvi. Sveti Marko je jedan od apostola (učenika) Isusa Hrista i autor drugog jevanđelja.</value>
+  </data>
+  <data name="SvetiNektarijeDesc" xml:space="preserve">
+    <value>Sveti Nektarije je pravoslavni teolog i svetitelj, rođen pod imenom Anastasije Kefalas. Rođen je 1. oktobra 1846. u Trakiji u siromašnoj porodici. Nakon osnovne škole, preselio se u Carigrad, a 1866. godine prešao je u grad Hios, gde je radio kao učitelj.</value>
+  </data>
+  <data name="SvetiNikolaDesc" xml:space="preserve">
+    <value>Sveti Nikola ili Nikoljdan, najzastupljenija slava u Srbiji, slavi se 19. decembra, na dan kada je ovaj svetitelj umro 345. godine ove ere. Kažu da pola Srbije slavi Svetog Nikolu, a druga polovina ide u goste.</value>
+  </data>
+  <data name="SvetiPanteljmonDesc" xml:space="preserve">
+    <value>Sveti Pantelejmon ili sveti Pantelija rođen je u Nikomediji. Kao mlad studirao je medicinu i posvetio se veri i Hristu.Mnogo je zapisa o njegovim čudesnim izlečenjima.</value>
+  </data>
+  <data name="SvetiStefanDecanskiDesc" xml:space="preserve">
+    <value>Stefan Dečanski je jedna od najtragičnijih ličnosti u lozi Nemanjića.
+Njegova tragična sudbina je počela još od njegove mladosti kada ga je otac Milutin oslepeo i poslao u zatvor u Carigrad.
+Prema predanju i crkvenjom učenju, nakon pet godina Sveti Nikola je vratio vid kralju Stefanu.</value>
+  </data>
+  <data name="SvetiStefanDesc" xml:space="preserve">
+    <value>Ovaj dan se za one koji ne praznuju slavu slavi i kao treći dan Božića.Stefan je, prema predanju, bio prvi od sedam đakona koje su sveti apostoli rukopoložili i postavili na službu oko pomaganja siromašnih u Jerusalimu.Zato je nazvan arhiđakonom.</value>
+  </data>
+  <data name="SvetiTomaDesc" xml:space="preserve">
+    <value>U narodu poznat kao "Neverni Toma" jer je odbijao da poveruje u vaskrsenje Isusa Hrista dok ga sam ne vidi i ne dodirne njegove rane od eksera i stavi svoje ruke u njegova rebra.</value>
+  </data>
+  <data name="SvetiTrifunDesc" xml:space="preserve">
+    <value>Srpska pravoslavna crkva Svetog Trifuna obeležava 14. februara po novom, odnosno 1. februara po starom kalendaru.Slavi se se kao „Dan ljubavi i vina”.</value>
+  </data>
+  <data name="SvetiTriJerarhaDesc" xml:space="preserve">
+    <value>Sveta tri Jerarha su svetitelji Vasilije Veliki, Grigorije Bogoslov i Jovan Zlatousti, a svaki od njih ima svoj dan praznovanja u mesecu januaru.</value>
+  </data>
+  <data name="SvetiVasilijeVelikiDesc" xml:space="preserve">
+    <value>4. januar je datum kada se odaje počast Svetom Vasiliju, Velikom arhiepiskopu Kesarijskom koji je rođen oko 329. godine u doba vladavine cara Konstantina.</value>
+  </data>
+  <data name="SvetogSaveDesc" xml:space="preserve">
+    <value>On je bio raški plemić iz vladarske obitelji Nemanjića, uticajni diplomata i prvi srpski arhiepiskop. Srpska pravoslavna crkva ga slavi kao svetog Savu.</value>
+  </data>
+  <data name="ToolTipGerman" xml:space="preserve">
+    <value>Nemački</value>
+  </data>
+  <data name="ToolTipSerboCroatian" xml:space="preserve">
+    <value>Srpsko-Hrvatski</value>
+  </data>
+  <data name="UsekovanjeDesc" xml:space="preserve">
+    <value>Sveti Jovan je poznat kao neko ko je prvi najavio dolazak Isusa Hrista na zemlju, a nakon njegovog dolaska ga krstio u reci Jordan.</value>
+  </data>
+  <data name="VavedenjeDesc" xml:space="preserve">
+    <value>Na ovaj dan se slavi uspomena na prvi ulazak Bogorodice u hram Božiji, u pratnji svojih roditelja Joakima i Ane.
+Naime Marija je dovedena u hram kao trogodišnje dete u skladu sa zavetom svojih roditelja da će ako dobiju porod, dete predati Bogu u hram.
+U svečanoj povorci Marija je išla između majke i oca, a iza njih kretali su se mnogi rođaci i prijatelji.</value>
+  </data>
+</root>

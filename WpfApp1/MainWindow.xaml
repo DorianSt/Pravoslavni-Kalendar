@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Height="456" Width="745" Icon="/Serbian_Cross_symbol.svg.png" ResizeMode="NoResize">
+    <ScrollViewer>
+        <Grid Background="Gray"  x:Name="mainGrid" Height="440">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <local:CustomCanvas x:Name="mainCanvas" Grid.Column="0" Grid.Row="0">
+                <local:CustomCanvas.Background>
+                    <ImageBrush   Viewport="0,0,728,440" ViewportUnits="Absolute"  ImageSource="/fresco-bg.jpg" Stretch="Fill"/>
+                </local:CustomCanvas.Background>
+                <TextBlock x:Name="langTitle" TextWrapping="Wrap" FontSize="20" Foreground="White"  Canvas.Left="528" Canvas.Top="4" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                <Image x:Name="langYU"   Cursor="Hand"  Source="{StaticResource Flag_of_Yugoslavia__1918_1941_DrawingImage}" Stretch="Fill" Width="90" Height="64" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="443" Canvas.Top="43">
+                    <Image.Effect>
+                        <DropShadowEffect/>
+                    </Image.Effect>
+                </Image>
+                <Image x:Name="langDE"  Cursor="Hand"   Source="{StaticResource Flag_of_GermanyDrawingImage}" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Right" Width="90" Height="64"  Canvas.Left="595" Canvas.Top="43">
+                    <Image.Effect>
+                        <DropShadowEffect/>
+                    </Image.Effect>
+                </Image>
+                <Button x:Name="aboutButton" Content="" Canvas.Left="67" Canvas.Top="68" Click="aboutButton_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Width="86" Height="35">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+                <Button x:Name="buyButton" Content="" Canvas.Left="179" Canvas.Top="68" Click="buyButton_Click" Width="135" Height="35" HorizontalAlignment="Left" VerticalAlignment="Center">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+            </local:CustomCanvas>
+        </Grid>
+    </ScrollViewer>
+</Window>

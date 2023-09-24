@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutButton" xml:space="preserve">
+    <value>Über das Programm</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Serbisch-Orthodoxer Kirchenkalender</value>
+  </data>
+  <data name="BlagovestiDesc" xml:space="preserve">
+    <value>Die Verkündigung ist der Tag, an dem der Erzengel Gabriel der Mutter Gottes erschien und ihr sagte, dass sie durch den Heiligen Geist in einem gesegneten Zustand sei und dass sie einen Sohn zur Welt bringen würde.</value>
+  </data>
+  <data name="BogorodiceDesc" xml:space="preserve">
+    <value>Eines der größten christlichen Feste Unserer Lieben Frau, das jedes Jahr am 28. August gefeiert wird, ist mit einem roten Buchstaben gekennzeichnet und stellt das Fest der Mütter und Kinder dar.</value>
+  </data>
+  <data name="BuyButton" xml:space="preserve">
+    <value>Handgemachte Ikone kaufen</value>
+  </data>
+  <data name="DescriptionTitle" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="DurdicDesc" xml:space="preserve">
+    <value>Heute findet die Restaurierung des Tempels des Großmärtyrers Georg in Lydien statt und die Überführung der Reliquien des Heiligen Georg in diesen Tempel.
+
+Für Đurđić wird eine Ikone verwendet, die einen Soldaten zeigt, der mit einem Speer in der Hand auf einem Feld steht.</value>
+  </data>
+  <data name="KrstiteljaDesc" xml:space="preserve">
+    <value>Johannes wurde sechs Monate vor Jesus Christus als Sohn von Vater Zacharias und Mutter Elisabeth geboren, die damals schon ziemlich alt waren. Der Überlieferung nach erschien der Erzengel Gabriel dem Hohepriester Zacharias im Jerusalemer Tempel und bevor er die Empfängnis der Jungfrau ankündigte ( die Geburt Jesu Christi). Er verkündete die Empfängnis der alten Jelisaveta.</value>
+  </data>
+  <data name="KrstovdanDesc" xml:space="preserve">
+    <value>„Wer mit einem Kreuz getauft wird, fastet am Tag des Kreuzes.“ Das sagen unsere Leute. An diesem Tag werden zwei Ereignisse gefeiert.</value>
+  </data>
+  <data name="LanguageTitle" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LazarevaSubotaDesc" xml:space="preserve">
+    <value>Der Lazarus-Samstag oder Vrbica wird in der letzten Fastenwoche auf den größten christlichen Feiertag – Ostern – vorbereitet.</value>
+  </data>
+  <data name="MarinaDesc" xml:space="preserve">
+    <value>Das Fest der Heiligen Märtyrerin Marina ist im Volksmund als Feurige Maria bekannt.
+Die heilige Marina war eine große Kämpferin für den christlichen Glauben und den Schutz der Frauen. Die Menschen glauben, dass die heilige Marina mit Feuer brennt und bestraft, weshalb sie wie der heilige Elias zu den „feurigen“ Heiligen gehört.</value>
+  </data>
+  <data name="PavlovdanDesc" xml:space="preserve">
+    <value>An diesem Tag feiern die orthodoxe Kirche und die Gläubigen den Tag der Heiligen Apostel Petrus und Paulus, einen Feiertag, der in unserem Volk unter dem Namen Petrustag bekannt ist.</value>
+  </data>
+  <data name="PreobrazenjeDesc" xml:space="preserve">
+    <value>Nach drei Jahren seiner Predigttätigkeit führte Jesus Christus seine Apostel Jakobus, Petrus und Johannes zum Berg Tavor. In der folgenden Nacht verwandelte sich Jesus Christus vor den Augen der Apostel und wurde Licht.</value>
+  </data>
+  <data name="PresveteBogorodiceDesc" xml:space="preserve">
+    <value>Das konkrete Ereignis, das an diesem Tag gefeiert wird, ereignete sich nach christlichem Glauben am 1. Oktober 911, zur Zeit Kaiser Leos des Weisen (oder des Philosophen). In der Marienkirche in Konstantinopel fand eine Nachtwache statt.</value>
+  </data>
+  <data name="RodjenjeDesc" xml:space="preserve">
+    <value>Mala Gospojina ist ein nationaler Feiertag, der die Geburt der Jungfrau Maria feiert. Mit diesem Feiertag sind viele Bräuche verbunden und er wird besonders von Frauen gefeiert und respektiert.</value>
+  </data>
+  <data name="SrdevdanDesc" xml:space="preserve">
+    <value>Der Feiertag, an dem in unserem Land der Tag der Heiligen Sergius und Bacchus gefeiert wird, heißt Srđevdan.
+
+Aufgrund ihres christlichen Glaubens wurden Bacchus und Sergius als römische Würdenträger am Hofe Kaiser Maximilians hingerichtet, weil sie sich weigerten, sich den römischen Göttern zu beugen.</value>
+  </data>
+  <data name="SvetaMarijaDesc" xml:space="preserve">
+    <value>Sie wurde vor zwei Jahrtausenden in der Stadt Magdala (Syrien) geboren und erhielt danach ihren Nachnamen.
+Der Überlieferung nach war Maria Magdalena in ihrer Jugend eine Sünderin, die Jesus Christus vor der Steinigung bewahrte.</value>
+  </data>
+  <data name="SvetaParaskevaDesc" xml:space="preserve">
+    <value>In Serbien verwechseln unsere Leute den Karfreitag Trnova (8. August) oft mit dem Karfreitag (27. Oktober).
+
+Die beiden Heiligen sind auf den Ikonen durch das Symbol der Heiligen Petka Trnova, der Schutzpatronin der Blinden, gekennzeichnet, die in ihren Händen eine Tafel mit geschnitzten Augen hält.</value>
+  </data>
+  <data name="SvetaPetkaDesc" xml:space="preserve">
+    <value>Sie war eine asketische Heilige des 10. Jahrhunderts. Aufgrund der Ereignisse im Zusammenhang mit der Überführung ihrer Reliquien in verschiedene Länder der Balkanhalbinsel, hat sie auch unterschiedliche Namen abhängig von der Sprache. </value>
+  </data>
+  <data name="SvetiAlimpijeDesc" xml:space="preserve">
+    <value>Olympias wurde 522 geboren und als Kind in den Dienst Gottes gestellt.
+Er diente als Diakon des andrianapolitanischen Bischofs Theodore und lernte mit ihm die Heilige Schrift.
+Der heilige Olympias versuchte immer, Wege zu finden, allein zu sein, er wollte sein Leben immer im Gebet und in der Einsamkeit verbringen.</value>
+  </data>
+  <data name="SvetiApostolPetarDesc" xml:space="preserve">
+    <value>Petrus schlief im Gefängnis, zwischen zwei Soldaten gefesselt, und in der Nacht, bevor er vor Gericht gebracht wurde, weckte ihn ein Engel und sagte zu ihm: „Steh auf, zieh deine Kleider an und gürte dich, dann komm mit mir.“</value>
+  </data>
+  <data name="SvetiArandjelDesc" xml:space="preserve">
+    <value>Der Erzengel Michael ist einer von drei Erzengeln, die vom Christentum anerkannt werden.</value>
+  </data>
+  <data name="SvetiDimitrijeDesc" xml:space="preserve">
+    <value>In unserem Land ist Mitrovdan einer der fünf größten serbischen Feiertage. Dieser Feiertag ist dem antiken Feldherrn Demetrius von Thessaloniki gewidmet, der sein Leben für die Verbreitung des Christentums verlor.</value>
+  </data>
+  <data name="SvetiGeorgijeDesc" xml:space="preserve">
+    <value>Das Fest des Heiligen Georg, einem der neun großen Märtyrer und ersten Märtyrer des christlichen Glaubens, wird in allen Tempeln der serbisch-orthodoxen Kirche gefeiert und ist eines der häufigsten Feste der orthodoxen Serben.</value>
+  </data>
+  <data name="Svetih40mucenikaDesc" xml:space="preserve">
+    <value>Am 22. März wird Mladenci gefeiert. Sie sind dem Gedenken an die vierzig Märtyrer von Sevasti gewidmet, die im Jahr 320 für den Glauben an Christus starben.</value>
+  </data>
+  <data name="SvetiIgnjatijeDesc" xml:space="preserve">
+    <value>Der 2. Januar nach dem modernen Kalender (20. Dezember nach dem Kirchenkalender) ist das Fest der Taufe des Heiligen Ignatius, des Gottesträgers.</value>
+  </data>
+  <data name="SvetiIlijaDesc" xml:space="preserve">
+    <value>Der heilige Elia erscheint im Alten und Neuen Testament als Prophet, dessen Eigenschaften vom Christentum übernommen wurden und ihn mit der Entstehung eines neuen Glaubens und dem neuen Kommen Christi verbinden.</value>
+  </data>
+  <data name="SvetiJovanDesc" xml:space="preserve">
+    <value>Der heilige Johannes ist ein Vorbild für Ehrlichkeit und Rechtschaffenheit, daher gibt es im serbischen Volk den Brauch, dass Menschen am Johannistag „nach Gott und dem heiligen Johannes“ Brüder und Paten werden. Orthodoxe Christen feiern am 20. Januar das Fest der Taufe des Heiligen Johannes, das gemessen an der Zahl der feiernden Priester an dritter Stelle steht.</value>
+  </data>
+  <data name="SvetiKirijakDesc" xml:space="preserve">
+    <value>Der Michaelistag ist ein Tag, der dem Heiligen Cyriacus dem Einsiedler gewidmet ist, der im Volksmund auch als Sankt Michael bekannt ist. Man glaubt, dass der wahre Herbst erst nach diesem Feiertag kommt.</value>
+  </data>
+  <data name="SvetiKnezLazarDesc" xml:space="preserve">
+    <value>Am 28. Juni feiern die orthodoxe Kirche und ihre Gläubigen den Vidovdan, das Datum, an dem die Schlacht im Kosovo stattfand, und das Fest der heiligen Märtyrer Vid und Lazar Hrebeljanović.</value>
+  </data>
+  <data name="SvetiLukaDesc" xml:space="preserve">
+    <value>Das Christentum lehrt auch, dass er um das Jahr 60 der Autor des dritten Evangeliums des Neuen Testaments ist. Er begleitete den Apostel Paulus auf seinen Missionsreisen und predigte später selbst</value>
+  </data>
+  <data name="SvetiMarkoDesc" xml:space="preserve">
+    <value>An diesem Tag wurde der Heilige Markus in Ägypten während des Gottesdienstes der Liturgie in der Kirche von Alexandria hingerichtet. Der heilige Markus ist einer der Apostel (Jünger) Jesu Christi und der Autor des zweiten Evangeliums.</value>
+  </data>
+  <data name="SvetiNektarijeDesc" xml:space="preserve">
+    <value>In unserem Land ist Mitrovdan einer der fünf größten serbischen Feiertage. Dieser Feiertag ist dem antiken Feldherrn Demetrius von Thessaloniki gewidmet, der sein Leben für die Verbreitung des Christentums verlor.</value>
+  </data>
+  <data name="SvetiNikolaDesc" xml:space="preserve">
+    <value>Der Nikolaustag, der häufigste Feiertag in Serbien, wird am 19. Dezember gefeiert, dem Tag, an dem dieser Heilige im Jahr 345 n. Chr. starb. Man sagt, dass die Hälfte Serbiens den Heiligen Nikolaus feiert und die andere Hälfte zu Besuch geht.</value>
+  </data>
+  <data name="SvetiPanteljmonDesc" xml:space="preserve">
+    <value>Der Heilige Panteleimon oder die Heilige Pantelia wurde in Nikomedia geboren. Als junger Mann studierte er Medizin und widmete sich dem Glauben und Christus. Es gibt viele Berichte über seine wundersamen Heilungen.</value>
+  </data>
+  <data name="SvetiStefanDecanskiDesc" xml:space="preserve">
+    <value>Stefan Dečanski ist eine der tragischsten Figuren in der Nemanjić-Linie.
+Sein tragisches Schicksal begann in seiner Jugend, als sein Vater Milutin ihn blind machte und ins Gefängnis in Konstantinopel schickte.
+Der Überlieferung und der kirchlichen Lehre zufolge stellte der heilige Nikolaus König Stephan nach fünf Jahren das Augenlicht wieder her.</value>
+  </data>
+  <data name="SvetiStefanDesc" xml:space="preserve">
+    <value>Dieser Tag wird auch als dritter Weihnachtstag für diejenigen gefeiert, die ihn nicht feiern. Der Überlieferung nach war Stefan der erste der sieben Diakone, die von den heiligen Aposteln ordiniert und dazu bestimmt wurden, den Armen in Jerusalem zu dienen. Deshalb wurde er Erzdiakon genannt.</value>
+  </data>
+  <data name="SvetiTomaDesc" xml:space="preserve">
+    <value>Im Volksmund als „untreuer Thomas“ bekannt, weil er sich weigerte, an die Auferstehung Jesu Christi zu glauben, bis er ihn selbst sah, seine Nagelwunden berührte und seine Hände in seine Rippen legte.</value>
+  </data>
+  <data name="SvetiTrifunDesc" xml:space="preserve">
+    <value>Die serbisch-orthodoxe Kirche St. Trifun feiert den 14. Februar nach dem neuen Kalender bzw. den 1. Februar nach dem alten Kalender. Er wird als „Tag der Liebe und des Weins“ gefeiert.</value>
+  </data>
+  <data name="SvetiTriJerarhaDesc" xml:space="preserve">
+    <value>Die Heiligen Drei Hierarchen sind die Heiligen Basilius der Große, Gregor der Theologe und Johannes Chrysostomus, und jeder von ihnen hat im Januar seinen eigenen Festtag.</value>
+  </data>
+  <data name="SvetiVasilijeDesc" xml:space="preserve">
+    <value>Heute feiern die serbisch-orthodoxe Kirche und ihre Gläubigen das Fest des heiligen Basilius von Ostrog, der wegen der Heilkräfte seiner Reliquien und heiligen Gebete auch Wundertäter genannt wird.</value>
+  </data>
+  <data name="SvetiVasilijeVelikiDesc" xml:space="preserve">
+    <value>Der 4. Januar ist das Datum der Ehrung des Heiligen Basilius, des großen Erzbischofs von Cäsarea, der um 329 während der Herrschaft von Kaiser Konstantin geboren wurde.</value>
+  </data>
+  <data name="SvetogSaveDesc" xml:space="preserve">
+    <value>Sava gilt als Begründer und erster Erzbischof der serbisch-orthodoxen Kirche und wird von dieser als Apostelgleicher verehrt.</value>
+  </data>
+  <data name="ToolTipGerman" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="ToolTipSerboCroatian" xml:space="preserve">
+    <value>Serbokroatisch</value>
+  </data>
+  <data name="UsekovanjeDesc" xml:space="preserve">
+    <value>Der heilige Johannes ist als jemand bekannt, der als erster die Ankunft Jesu Christi auf der Erde ankündigte und ihn nach seiner Ankunft im Jordan taufte.</value>
+  </data>
+  <data name="VavedenjeDesc" xml:space="preserve">
+    <value>An diesem Tag wird die Erinnerung an den ersten Einzug der Jungfrau in den Tempel Gottes in Begleitung ihrer Eltern Joachim und Anna gefeiert.
+Maria wurde nämlich als dreijähriges Kind in den Tempel gebracht, gemäß dem Gelübde ihrer Eltern, das Kind im Falle einer Geburt Gott im Tempel zu übergeben.
+In der festlichen Prozession ging Maria zwischen ihrer Mutter und ihrem Vater hindurch, und viele Verwandte und Freunde folgten ihnen.</value>
+  </data>
+</root>

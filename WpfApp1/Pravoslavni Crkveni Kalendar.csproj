@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Serbian_Cross_symbol.svg.ico</ApplicationIcon>
+    <StartupObject>WpfApp1.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fresco-bg.jpg" />
+    <None Remove="Serbian_Cross_symbol.svg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Serbian_Cross_symbol.svg.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildInstaller" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fresco-bg.jpg" />
+    <Resource Include="Serbian_Cross_symbol.svg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\strings.de-DE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>strings.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\strings.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>strings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\strings.de-DE.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>strings.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\strings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\strings.sr-Latn-RS.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+	</Project>
