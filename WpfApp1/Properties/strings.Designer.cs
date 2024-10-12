@@ -172,6 +172,24 @@ namespace Pravoslavni_Crkveni_Kalendar.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to New version found!.
+        /// </summary>
+        public static string NewVersionCaption {
+            get {
+                return ResourceManager.GetString("NewVersionCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A version of this application exists, that is newer than the current one. Would you like to update?.
+        /// </summary>
+        public static string NewVersionText {
+            get {
+                return ResourceManager.GetString("NewVersionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to On this day, the Orthodox Church and believers celebrate the Day of the Holy Apostles Peter and Paul, a holiday that is known in our people by the name - Peter&apos;s Day..
         /// </summary>
         public static string PavlovdanDesc {

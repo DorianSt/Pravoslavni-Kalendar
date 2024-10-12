@@ -156,6 +156,12 @@ Für Đurđić wird eine Ikone verwendet, die einen Soldaten zeigt, der mit eine
     <value>Das Fest der Heiligen Märtyrerin Marina ist im Volksmund als Feurige Maria bekannt.
 Die heilige Marina war eine große Kämpferin für den christlichen Glauben und den Schutz der Frauen. Die Menschen glauben, dass die heilige Marina mit Feuer brennt und bestraft, weshalb sie wie der heilige Elias zu den „feurigen“ Heiligen gehört.</value>
   </data>
+  <data name="NewVersionCaption" xml:space="preserve">
+    <value>Neue Version gefunden!</value>
+  </data>
+  <data name="NewVersionText" xml:space="preserve">
+    <value>Es wurde eine Version gefunden, die neuer ist als die derzeitige Version der Applikation ist. Wollen Sie updaten?</value>
+  </data>
   <data name="PavlovdanDesc" xml:space="preserve">
     <value>An diesem Tag feiern die orthodoxe Kirche und die Gläubigen den Tag der Heiligen Apostel Petrus und Paulus, einen Feiertag, der in unserem Volk unter dem Namen Petrustag bekannt ist.</value>
   </data>

@@ -29,12 +29,12 @@
                         <DropShadowEffect/>
                     </Image.Effect>
                 </Image>
-                <Button x:Name="aboutButton" Content="" Canvas.Left="67" Canvas.Top="68" Click="aboutButton_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Width="86" Height="35">
+                <Button x:Name="aboutButton" Cursor="Hand" Content="" Canvas.Left="67" Canvas.Top="68" Click="aboutButton_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Width="86" Height="35">
                     <Button.Effect>
                         <DropShadowEffect/>
                     </Button.Effect>
                 </Button>
-                <Button x:Name="buyButton" Content="" Canvas.Left="179" Canvas.Top="68" Click="buyButton_Click" Width="135" Height="35" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Button x:Name="buyButton" Cursor="Hand" Content="" Canvas.Left="179" Canvas.Top="68" Click="buyButton_Click" Width="135" Height="35" HorizontalAlignment="Left" VerticalAlignment="Center">
                     <Button.Effect>
                         <DropShadowEffect/>
                     </Button.Effect>

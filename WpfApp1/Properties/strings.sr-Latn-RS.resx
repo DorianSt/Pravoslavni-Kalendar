@@ -156,6 +156,12 @@ Za Đurđic se koristi ikona na kojoj je prikazan vojnik koji stoji na poljani s
     <value>Praznik Svete velikomučenice Marine u narodu je poznat kao Ognjena Marija.
 Sveta Marina je bila veliki borac za hrišćansku veru i zaštitu žena.Narod veruje da Sveta Marina pali i kažnjava ognjem, pa samim tim spada u "ognjevite" svece kao i Sveti Ilija.</value>
   </data>
+  <data name="NewVersionCaption" xml:space="preserve">
+    <value>Nova verzija</value>
+  </data>
+  <data name="NewVersionText" xml:space="preserve">
+    <value>Postoje novu verziju aplikacije, da li hocete preuzmeti je?</value>
+  </data>
   <data name="PavlovdanDesc" xml:space="preserve">
     <value>Pravoslavna crkva i vernici na ovaj dan slave Dan svetih apostola Petra i Pavla, praznik koji je u našem narodu poznat pod imenom – Petrovdan.</value>
   </data>

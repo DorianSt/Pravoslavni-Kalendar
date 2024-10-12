@@ -156,6 +156,12 @@ An icon is used for Đurđić, which shows a soldier standing in a field with a 
     <value>The feast of Saint Martyr Marina is popularly known as Fiery Mary.
 St. Marina was a great fighter for the Christian faith and the protection of women. People believe that St. Marina burns and punishes with fire, so she belongs to the "fiery" saints like St. Elijah.</value>
   </data>
+  <data name="NewVersionCaption" xml:space="preserve">
+    <value>New version found!</value>
+  </data>
+  <data name="NewVersionText" xml:space="preserve">
+    <value>A version of this application exists, that is newer than the current one. Would you like to update?</value>
+  </data>
   <data name="PavlovdanDesc" xml:space="preserve">
     <value>On this day, the Orthodox Church and believers celebrate the Day of the Holy Apostles Peter and Paul, a holiday that is known in our people by the name - Peter's Day.</value>
   </data>

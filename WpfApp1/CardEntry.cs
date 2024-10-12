@@ -32,6 +32,8 @@ namespace WpfApp1
                 TextBox holidayDescription = new TextBox();
                 Calendar holidayCalendar = new Calendar();
                 Date = date;
+                holidayCalendar.Focusable = false;
+                holidayCalendar.GotFocus += HolidayCalendar_GotFocus;
                 holidayTitle.FontWeight = FontWeights.Bold;
                 holidayTitle.HorizontalAlignment = HorizontalAlignment.Center;
                 holidayTitle.VerticalAlignment = VerticalAlignment.Top;
@@ -83,6 +85,14 @@ namespace WpfApp1
                 Margin = new Thickness(0, 125, 0, 0);
                 mainWindow.mainCanvas.Children.Add(this);
             }
+
+        }
+
+        private void HolidayCalendar_GotFocus(object sender, RoutedEventArgs e)
+        {
+            Window mainWindow = Application.Current.MainWindow;
+            mainWindow.Focus();
+            mainWindow.Activate();
 
         }
 
